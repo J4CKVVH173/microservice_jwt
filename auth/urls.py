@@ -16,8 +16,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from rest_framework_jwt.views import obtain_jwt_token
-from rest_framework_jwt.utils import jwt_create_response_payload
+from rest_framework_jwt.views import verify_jwt_token
 
 urlpatterns = [
     path('api-token-auth/', obtain_jwt_token),
+    path('verify/', verify_jwt_token),
 ]
