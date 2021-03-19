@@ -1,4 +1,4 @@
-Django==2.2.4
+Django==2.2.18
 djangorestframework==3.9.4
 drf-jwt==1.13.2
 PyJWT==1.7.1
